@@ -28,4 +28,4 @@ See `shell-aliases.md` for quick-launch aliases (`cs` and `cr`).
 
 ## License
 
-See `license.txt`
+See `LICENSE`

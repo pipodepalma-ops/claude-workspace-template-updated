@@ -1,0 +1,45 @@
+# -----------------------------------------------
+# Context files — users fill these in locally.
+# They contain personal/business info and should
+# NEVER be committed to a public repo.
+# -----------------------------------------------
+context/personal-info.md
+context/business-info.md
+context/strategy.md
+context/current-data.md
+
+# Keep the folder itself tracked (via .gitkeep)
+!context/.gitkeep
+
+# -----------------------------------------------
+# Plans & outputs — personal work product
+# (optional: remove these lines if you want plans
+# and outputs committed to your own fork)
+# -----------------------------------------------
+plans/*.md
+outputs/
+
+# Keep folder structure
+!plans/.gitkeep
+!outputs/.gitkeep
+
+# -----------------------------------------------
+# OS junk
+# -----------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------------------------
+# Python
+# -----------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# -----------------------------------------------
+# Claude Code local settings (keep private)
+# -----------------------------------------------
+.claude/settings.local.json
